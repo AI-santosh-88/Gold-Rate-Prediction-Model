@@ -44,3 +44,6 @@ For numerical operations and array handling (np.array).
 For serializing and saving the trained model to a file (pickle.dump).
 #### * matplotlib.pyplot:
 For creating plots and visualizations (plt.scatter, plt.plot, plt.title, plt.xlabel, plt.ylabel, plt.show).
+
+## Summary:
+This project successfully implemented a linear regression model to predict gold rates based on the year.  Historical gold rate data was used to train the model, which was then evaluated on a separate test dataset. The model's performance was assessed using R-squared and Mean Squared Error, indicating its ability to capture the linear trend in gold rate changes over the years.  Predictions for future years (2026 and 2027) were generated, and the trained model was saved as a pickle file for future use without retraining. The visualizations provide a clear picture of the model's fit to both the training and testing data, demonstrating the linear relationship learned by the model.
