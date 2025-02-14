@@ -6,7 +6,7 @@ This project develops a simple linear regression model to predict gold rates bas
 
 ## Responsibilities:
 
-### * Data Loading and Preprocessing:
+### *Data Loading and Preprocessing:
 * Load the gold rate dataset from a CSV file ('Gold_Rate.csv') using pandas.
 * Separate the dataset into features (Year - independent variable) and target (Gold Rate - dependent variable).
 * Prepare the feature (x) as a NumPy array from the 'Year' column and the target (y) as a NumPy array from the 'Gold_Rate' column.
